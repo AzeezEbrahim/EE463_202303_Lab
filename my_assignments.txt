@@ -1,0 +1,5 @@
+1946282
+$ python scheduler.py -p FIFO -l 4,59,21,72
+$ python scheduler.py -p SJF -l 4,59,21,72
+$ python scheduler.py -p RR -l 4,59,21,72 -q 50
+$ python scheduler.py -p RR -l 4,59,21,72 -q 25
